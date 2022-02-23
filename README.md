@@ -16,11 +16,11 @@ El resultado de las llamadas se puede ver a través del navegador.
   - Se puede encontrar en <https://play.google.com/store/apps/details?id=com.uportMobile>
 - Node.js
 - npm
-- Paquetes npm que se agregarán durante la instalación:
-  - ("express" para proporcionar un servidor web;
-  - "ngrok" para proporcionar un tunel seguro para ejecutar la Dapp; y
-  - "path" para gestionar las direcciones de acceso al sistema de ficheros)
-- Un editor de texto para modificar el index.html (Visual Studio Code, notepad, etc...)
+- Paquetes npm que se agregarán durante la instalación con un "npm install express ngrok path"
+  - "express" para proporcionar un servidor web;
+  - "ngrok" para proporcionar un tunel seguro para ejecutar la Dapp (es suficiente con una cuenta gratuita que nos proporcionará el authtoken para la conexión; y
+  - "path" para gestionar las direcciones de acceso al sistema de ficheros
+- Un editor de texto para modificar el index.html (Visual Studio Code, notepad, etc...) e incluir el código necesario para la práctica
 
 ## Cómo empezar
 
@@ -37,3 +37,7 @@ Para arrancar la página web, ejecutar
 Se mostrará un mensaje si la DApp se ha arrancado correctamente.
 
 Tambíen se mostrará una URL para poder lanzar desde el navegador.
+
+## Consideraciones
+Para poder abrir al exterior la página index.html es necesario que el firewall tenga el puerto 8088 permitido.
+
